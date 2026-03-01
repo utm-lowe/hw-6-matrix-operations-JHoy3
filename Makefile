@@ -12,3 +12,5 @@ matrixTest: $(MATRIX_LIB) matrixTest.o
 
 clean:
 	rm -f $(TARGETS) *.o
+
+	
