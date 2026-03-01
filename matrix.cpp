@@ -153,7 +153,7 @@ std::ostream& operator<<(std::ostream& os, const Matrix& m)
 {
     for (int i = 0; i < m.getRows(); ++i) {
         for (int j = 0; j < m.getCols(); ++j) {
-            os << setw(10) << m.at(i, j);
+            os << setw(10) << m.at(i, j) << " ";
         }
         os << endl;
     }
